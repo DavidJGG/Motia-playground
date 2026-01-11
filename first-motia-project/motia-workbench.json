@@ -1,0 +1,71 @@
+[
+  {
+    "id": "hello-world-flow",
+    "config": {
+      "src\\hello\\process-greeting.step.js": {
+        "x": 354,
+        "y": 32
+      },
+      "src\\hello\\hello-api.step.js": {
+        "x": -44,
+        "y": -3
+      }
+    }
+  },
+  {
+    "id": "pet-api",
+    "config": {
+      "src\\pet_api\\get.step.js": {
+        "x": -92,
+        "y": -10
+      },
+      "src\\pet_api\\create.step.js": {
+        "x": -93,
+        "y": 132
+      },
+      "src\\pet_api\\delete.step.js": {
+        "x": -100,
+        "y": 280
+      },
+      "src\\pet_api\\notify-after-creation.job.step.js": {
+        "x": 291,
+        "y": 44
+      }
+    }
+  },
+  {
+    "id": "JsPetManagement",
+    "config": {
+      "src\\streams_agentic\\set-next-feeding-reminder.job.step.js": {
+        "x": 369,
+        "y": 174,
+        "sourceHandlePosition": "bottom"
+      },
+      "src\\streams_agentic\\create-pet.step.js": {
+        "x": 82,
+        "y": 80
+      },
+      "src\\streams_agentic\\ai-profile-enrichment.step.js": {
+        "x": 385,
+        "y": -81
+      },
+      "src\\pet_api\\cron-job.cron.step.js": {
+        "x": -29,
+        "y": 231
+      }
+    }
+  },
+  {
+    "id": "wf",
+    "config": {
+      "src\\workflow\\create.step.js": {
+        "x": -48,
+        "y": 7
+      },
+      "src\\workflow\\pet-lifecycle-orchestrator.step.js": {
+        "x": 310,
+        "y": -2
+      }
+    }
+  }
+]
